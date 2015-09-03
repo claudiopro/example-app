@@ -35,7 +35,7 @@
     "start": "webpack-dev-server -d --colors --port 9000",
     "prestart": "npm install",
     "postinstall": "jam install",
-    "prebuild": "npm install",
+    "prewebpack-build": "npm install",
     "webpack-build": "webpack -p --progress --colors --devtool sourcemap --hot"
   },
   "engines": {
